@@ -65,12 +65,14 @@
             <tr>
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style6">
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" />
+                    <asp:Button ID="ButtonSubmit" runat="server" OnClick="ButtonSubmit_Click" Text="Submit" />
                     <input id="Reset1" type="reset" value="reset" /></td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style2">
+                    <asp:Label ID="LabelMessage" runat="server" Text="Message" Visible="False"></asp:Label>
+                </td>
                 <td class="auto-style6">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
